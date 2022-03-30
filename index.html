@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer form</title>
+</head>
+<body>
+    <h1>Hola, este es mi primer formulario</h1>
+    <h4>Por favor, rellena con los siguientes datos, para registrarte</h4>
+    <form action="/register">
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="">
+       
+        <label for="lastName">Apellido</label>
+        <input type="text" name="lastName" id="">
+        <br>
+        <label for="address">Domicilio</label>
+        <input type="text" name="address" id="">
+       
+        <label for="document">Documento</label>
+        <input type="text" name="document" id="">
+        <br>
+        <label for="">Seleccione Tipo De Cuenta</label>
+        <select name="accountType" id="">
+            <option value="1">Cuenta Empresarial</option>
+            <option value="2">Cuenta Personal</option>
+            <option value="3">Cuenta Estudiante</option>
+        </select>
+        <br>
+        <button type="submit">Registrarme!</button>
+    </form>
+</body>
+</html>
